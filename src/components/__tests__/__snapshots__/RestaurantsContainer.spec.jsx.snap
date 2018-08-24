@@ -4,7 +4,11 @@ exports[`Component > RestaurantsContainer should display loading if data is not 
 <div
   className="section"
 >
-  Loading...
+  <div
+    className="restaurant-count text-gray hide-when-small"
+  >
+    Loading...
+  </div>
 </div>
 `;
 
@@ -13,7 +17,7 @@ exports[`Component > RestaurantsContainer should render correctly 1`] = `
   className="section"
 >
   <div
-    className="restaurant-count text-gray"
+    className="restaurant-count text-gray hide-when-small"
   >
     2
      Restaurants
