@@ -15,9 +15,27 @@
   display: inline-block;
 }
 
-.deliveroo-page  .logo-bg {
+.deliveroo-page .logo-bg {
   height: 156px;
   background-color: #00CCBC;
+}
+
+.deliveroo-page .logo-bg .location-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.deliveroo-page .logo-bg .location-container .location-label {
+  color: #000;
+  opacity: 0.5;
+  font-size: 16px;
+}
+
+.deliveroo-page .logo-bg .location-container .current-location {
+  color: #fff;
+  font-size: 34px;
 }
 
 .deliveroo-page .btn {
@@ -28,12 +46,50 @@
   cursor: pointer;
 }
 
-.deliveroo-page .restaurant h2 {
-  font-size: 22px;
-  color: #2E3333;
+.deliveroo-page .restaurant-count {
+  padding: 15px 0;
 }
 
-.deliveroo-page .restaurant .categories-price {
+.deliveroo-page .restaurant-container {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0 -15px;
+  padding: 0;
+}
+
+.deliveroo-page .restaurant-container li {
+  width: 33.33%;
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+
+.deliveroo-page .restaurant-container .restaurant {
+  cursor: pointer;
+}
+
+.deliveroo-page .restaurant-container .restaurant .restaurant-image {
+  min-height: 202px;
+  background-size: contain;
+  background-position: top left;
+  background-repeat: no-repeat;
+}
+
+.deliveroo-page .restaurant-container .restaurant h2 {
+  font-size: 22px;
+  color: #2E3333;
+  margin: 0 0 5px;
+}
+
+.deliveroo-page .restaurant-container .restaurant:hover h2 {
+  text-decoration: underline;
+}
+
+.deliveroo-page .restaurant-container .restaurant .categories-price {
   font-size: 14px;
+  margin-bottom: 30px;
+}
+
+.text-gray {
   color: #828585;
 }

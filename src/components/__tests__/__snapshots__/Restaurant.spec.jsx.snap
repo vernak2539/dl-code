@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component > Restaurant should render correctly 1`] = `
+<div
+  class="restaurant"
+>
+  <div
+    class="restaurant-image"
+    style="background-image:url(https://f.roocdn.com/images/menus/25785/header-image.jpg?width=360&height=200&auto=webp&format=jpg&fit=crop&v=1477308353)"
+  >
+    
+  </div>
+  <h2>
+    Burrito Kitchen
+  </h2>
+  <div
+    class="categories-price text-gray"
+  >
+    Mexican • Burritos • Halal • ££
+  </div>
+</div>
+`;

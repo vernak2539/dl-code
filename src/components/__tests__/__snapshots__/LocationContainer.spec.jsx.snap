@@ -5,19 +5,48 @@ exports[`Component > Location Container should render correctly 1`] = `
   class="logo-bg"
 >
   <div
-    class="section"
-    style="display:flex;justify-content:space-between;align-items:center;height:100%"
+    class="section location-container"
   >
     <div>
       <div
-        style="color:#000;opacity:0.5;font-size:16px"
+        class="location-label"
       >
         Location
       </div>
       <div
-        style="color:#fff;font-size:34px"
+        class="current-location"
       >
         sample location
+      </div>
+    </div>
+    <div>
+      <button
+        class="btn"
+      >
+        Change Location
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Component > Location Container should render correctly when no location provided 1`] = `
+<div
+  class="logo-bg"
+>
+  <div
+    class="section location-container"
+  >
+    <div>
+      <div
+        class="location-label"
+      >
+        Location
+      </div>
+      <div
+        class="current-location"
+      >
+        Loading...
       </div>
     </div>
     <div>

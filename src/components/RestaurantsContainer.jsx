@@ -8,10 +8,14 @@ export default ({ restaurants }) => {
 
 	return (
 		<div className="section">
-			<div>{restaurants.length} Restaurants</div>
-			{restaurants.map(restaurant => (
-				<Restaurant key={restaurant.id} {...restaurant} />
-			))}
+			<div className="restaurant-count text-gray">{restaurants.length} Restaurants</div>
+			<ul className="restaurant-container">
+				{restaurants.map(restaurant => (
+					<li key={restaurant.id}>
+						<Restaurant {...restaurant} />
+					</li>
+				))}
+			</ul>
 		</div>
 	);
 };
