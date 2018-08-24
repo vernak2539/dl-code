@@ -1,95 +1,137 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+* {
+	box-sizing: border-box;
+}
+
 .deliveroo-page .section {
-  width: 1120px;
-  margin: 0 auto;
+	max-width: 1100px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 10px;
 }
 
 .deliveroo-page .logo-container {
-  text-align: right;
-  height: 60px;
-  background: url('../images/logo-horizontal.svg') no-repeat center left;
+	text-align: right;
+	height: 60px;
+	background: url('../images/logo-horizontal.svg') no-repeat;
+	background-position: 10px 50%;
 }
 
 .deliveroo-page .user-account-container {
-  height: 60px;
-  line-height: 60px;
-  display: inline-block;
+	height: 60px;
+	line-height: 60px;
+	display: inline-block;
 }
 
 .deliveroo-page .logo-bg {
-  height: 156px;
-  background-color: #00CCBC;
+	height: 156px;
+	background-color: #00ccbc;
 }
 
 .deliveroo-page .logo-bg .location-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 100%;
 }
 
 .deliveroo-page .logo-bg .location-container .location-label {
-  color: #000;
-  opacity: 0.5;
-  font-size: 16px;
+	color: #000;
+	opacity: 0.5;
+	font-size: 16px;
 }
 
 .deliveroo-page .logo-bg .location-container .current-location {
-  color: #fff;
-  font-size: 34px;
+	color: #fff;
+	font-size: 34px;
 }
 
 .deliveroo-page .btn {
-  border-radius: 3px;
-  background-color: #fff;
-  color: #00CCBC;
-  padding: 10px 20px;
-  cursor: pointer;
+	border-radius: 3px;
+	background-color: #fff;
+	color: #00ccbc;
+	padding: 10px 20px;
+	cursor: pointer;
 }
 
 .deliveroo-page .restaurant-count {
-  padding: 15px 0;
+	padding: 15px 0;
 }
 
 .deliveroo-page .restaurant-container {
-  display: flex;
-  flex-wrap: wrap;
-  list-style: none;
-  margin: 0 -15px;
-  padding: 0;
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+	margin: 0 -15px;
+	padding: 0;
 }
 
 .deliveroo-page .restaurant-container li {
-  width: 33.33%;
-  padding: 0 15px;
-  box-sizing: border-box;
+	width: 33.33%;
+	padding: 0 15px;
+	box-sizing: border-box;
 }
 
 .deliveroo-page .restaurant-container .restaurant {
-  cursor: pointer;
+	cursor: pointer;
 }
 
 .deliveroo-page .restaurant-container .restaurant .restaurant-image {
-  min-height: 202px;
-  background-size: contain;
-  background-position: top left;
-  background-repeat: no-repeat;
+	min-height: 202px;
+	background-size: cover;
+	background-position: 50%;
+	background-repeat: no-repeat;
+	margin: 0 0 10px;
 }
 
 .deliveroo-page .restaurant-container .restaurant h2 {
-  font-size: 22px;
-  color: #2E3333;
-  margin: 0 0 5px;
+	font-size: 22px;
+	color: #2e3333;
+	margin: 0 0 5px;
 }
 
 .deliveroo-page .restaurant-container .restaurant:hover h2 {
-  text-decoration: underline;
+	text-decoration: underline;
 }
 
 .deliveroo-page .restaurant-container .restaurant .categories-price {
-  font-size: 14px;
-  margin-bottom: 30px;
+	font-size: 14px;
+	margin-bottom: 30px;
 }
 
 .text-gray {
-  color: #828585;
+	color: #828585;
+}
+
+@media (max-width: 575.98px) {
+	.deliveroo-page .hide-when-small {
+		display: none;
+	}
+
+	.deliveroo-page .logo-bg .location-container {
+		flex-wrap: wrap;
+	}
+
+	.deliveroo-page .logo-bg .location-container > div {
+		width: 100%;
+	}
+
+	.deliveroo-page .restaurant-container {
+		padding-top: 15px;
+	}
+
+	.deliveroo-page .restaurant-container li {
+		width: 100%;
+	}
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+	.deliveroo-page .restaurant-container li {
+		width: 50%;
+	}
 }
