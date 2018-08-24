@@ -4,6 +4,6 @@ import { render } from 'enzyme';
 
 describe('Component > Location Container', () => {
 	it('should render correctly', () => {
-		expect(render(<LocationContainer />)).toMatchSnapshot();
+		expect(render(<LocationContainer currentLocation="sample location" />)).toMatchSnapshot();
 	});
 });

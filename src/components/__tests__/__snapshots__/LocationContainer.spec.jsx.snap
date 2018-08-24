@@ -17,7 +17,7 @@ exports[`Component > Location Container should render correctly 1`] = `
       <div
         style="color:#fff;font-size:34px"
       >
-        Fitzrovia
+        sample location
       </div>
     </div>
     <div>

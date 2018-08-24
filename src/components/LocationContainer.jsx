@@ -18,13 +18,13 @@ const LocationStyles = {
 	fontSize: '34px'
 };
 
-export default () => {
+export default ({ currentLocation }) => {
 	return (
 		<div className="logo-bg">
 			<div className="section" style={styles}>
 				<div>
 					<div style={locationLabelStyles}>Location</div>
-					<div style={LocationStyles}>Fitzrovia</div>
+					<div style={LocationStyles}>{currentLocation}</div>
 				</div>
 				<div>
 					<button className="btn">Change Location</button>

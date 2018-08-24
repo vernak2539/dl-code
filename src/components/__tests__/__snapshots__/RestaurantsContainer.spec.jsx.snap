@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component > RestaurantsContainer should display loading if data is not present 1`] = `
+<div
+  className="section"
+>
+  Loading...
+</div>
+`;
+
+exports[`Component > RestaurantsContainer should render correctly 1`] = `
+<div
+  className="section"
+>
+  <div>
+    2
+     Restaurants
+  </div>
+  <Component
+    id="63460"
+    image="https://f.roocdn.com/images/menus/25785/header-image.jpg?width=360&height=200&auto=webp&format=jpg&fit=crop&v=1477308353"
+    key="63460"
+    name="Burrito Kitchen"
+    price={2}
+    tags={
+      Array [
+        "Mexican",
+        "Burritos",
+        "Halal",
+      ]
+    }
+    url="https://deliveroo.co.uk/menu/london/bank/burrito-kitchen-cheapside"
+  />
+  <Component
+    id="33406"
+    image="https://f.roocdn.com/images/menus/52101/header-image.jpg?width=360&height=200&auto=webp&format=jpg&fit=crop&v=1515776356"
+    key="33406"
+    name="Pure"
+    price={2}
+    tags={
+      Array [
+        "Salads",
+        "Gluten Free",
+        "Smoothies",
+      ]
+    }
+    url="https://deliveroo.co.uk/menu/london/the-city/pure-gracechurch-st"
+  />
+</div>
+`;
