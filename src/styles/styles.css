@@ -1,0 +1,39 @@
+.deliveroo-page .section {
+  width: 1120px;
+  margin: 0 auto;
+}
+
+.deliveroo-page .logo-container {
+  text-align: right;
+  height: 60px;
+  background: url('../images/logo-horizontal.svg') no-repeat center left;
+}
+
+.deliveroo-page .user-account-container {
+  height: 60px;
+  line-height: 60px;
+  display: inline-block;
+}
+
+.deliveroo-page  .logo-bg {
+  height: 156px;
+  background-color: #00CCBC;
+}
+
+.deliveroo-page .btn {
+  border-radius: 3px;
+  background-color: #fff;
+  color: #00CCBC;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.deliveroo-page .restaurant h2 {
+  font-size: 22px;
+  color: #2E3333;
+}
+
+.deliveroo-page .restaurant .categories-price {
+  font-size: 14px;
+  color: #828585;
+}

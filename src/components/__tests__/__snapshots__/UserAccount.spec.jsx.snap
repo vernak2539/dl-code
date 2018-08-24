@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component > User Account should render correctly 1`] = `
+<div
+  class="user-account-container"
+>
+  <img
+    src="user-icon.svg"
+  >
+    
+  </img>
+  Jane Smith
+</div>
+`;

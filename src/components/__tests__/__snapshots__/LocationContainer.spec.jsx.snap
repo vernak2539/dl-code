@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component > Location Container should render correctly 1`] = `
+<div
+  class="logo-bg"
+>
+  <div
+    class="section"
+    style="display:flex;justify-content:space-between;align-items:center;height:100%"
+  >
+    <div>
+      <div
+        style="color:#000;opacity:0.5;font-size:16px"
+      >
+        Location
+      </div>
+      <div
+        style="color:#fff;font-size:34px"
+      >
+        Fitzrovia
+      </div>
+    </div>
+    <div>
+      <button
+        class="btn"
+      >
+        Change Location
+      </button>
+    </div>
+  </div>
+</div>
+`;
